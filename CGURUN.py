@@ -5,6 +5,7 @@ def main():
 
 
     #頭
+
     #頭左側
     width(1)
     up()
@@ -18,51 +19,60 @@ def main():
     left(15)
     down()
     circle(35,140)
+    
     #頭底第一個角
     up()
     right(0)
     circle(18,270)
     down()
     circle(18,90)
+    
     #上弧 右
     up()
     circle(18,270)
     down()
     left(40)
     circle(40,48)
+    
     #上弧 左
     up()
     right(166)
     circle(17,272)
     down()
     circle(17,95)
+    
     #第二個角
     up()
     circle(17,265)
     right(23)
     down()
     circle(50,29)
+    
     #最上面的角
+    
     #上弧 左
     up()
     left(30)
     circle(50,335)
     down()
     circle(50,25)
+    
     #上弧 右
     up()
     circle(50,335)
     right(150)
     down()
     circle(53,48)
+    
     #下勾
     up()
     right(27)
     circle(45,284)
     down()
     circle(45,76)
+
     
-    
+    #字
     
     #rUn
     up()
@@ -80,6 +90,7 @@ def main():
     goto(220,-147)
     goto(165,-167)
     end_fill()
+
 
     #ruN
     up()
@@ -108,15 +119,19 @@ def main():
     begin_fill()
     goto(150,-90)
     goto(159,-96)
+    
     #右手關節
     goto(164,-100)
     goto(160,-109)
+    
     #前手臂
     goto(102,-180)
+    
     #右腿
     goto(210,-231)
     goto(393,-168)
     goto(215,-264)
+    
     #左腿
     goto(102,-249)
     goto(39,-264)
@@ -129,9 +144,11 @@ def main():
     goto(-19,-239)
     goto(-11,-233)
     goto(-4,-229)
+    
     #腰
     goto(32,-216)
     goto(-2,-185)
+    
     #左手
     goto(-4,-216)
     goto(-8,-220)
@@ -140,6 +157,7 @@ def main():
     goto(-96,-171)
     goto(-36,-202)
     goto(-37,-155)
+    
     #肩膀
     goto(-35,-151)
     goto(-31,-147)
@@ -155,6 +173,7 @@ def main():
     goto(60,-92)
     goto(70,-90)
     end_fill()
+    
     #右手空隙
     up()
     goto(68,-125)
